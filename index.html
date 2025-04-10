@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="" style="font-family: 'Roboto', sans-serif">
+    <!-- header and hero section -->
+    <hero class="bg-[#1F2937] flex flex-col text-[#F9FAF8] pt-4">
+      <header class="flex justify-around ">
+        <h3 class="text-2xl">Header Logo</h3>
+        <ul class="flex text-lg text-[#E5E7EB] gap-3">
+          <li class=""><a href="">header one</a></li>
+          <li><a href="">header two</a></li>
+          <li><a href="">header three</a></li>
+        </ul>
+      </header>
+      <div class="flex mx-64 my-40">
+        <div class="flex flex-col flex-1 gap-2">
+          <h2 class="text-5xl font-black">This website is awesome</h2>
+          <p class="text-[#E5E7EB] text-lg">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque
+            iure facilis sit officiis. gergegergeg gerger grege.gfdfgfd
+          </p>
+          <div><button class="bg-[#3882F6] px-8 py-1 font-bold rounded-md">Sign Up</button></div>
+        </div>
+        <div class="flex flex-1 bg-gray-600 items-center"><img width="200px" src="" alt="" />placeholder</div>
+      </div>
+    </hero>
+
+  </body>
 </html>
